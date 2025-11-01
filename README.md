@@ -113,7 +113,7 @@ Com as dependências instaladas e o banco de dados configurado, você pode inici
 O *frontend* é composto por arquivos estáticos (HTML, CSS, JS) e não requer um servidor Node.js para ser executado.
 
 1.  Navegue até o diretório `EcoGrow-final/EcoGrow-final/front`.
-2.  Abra o arquivo principal da aplicação (provavelmente `login.html` ou `Pagina.html`) diretamente no seu navegador.
+2.  Abra o arquivo principal da aplicação  `Pagina.html` diretamente no seu navegador.
 
     > **Dica:** Para um ambiente de desenvolvimento mais robusto e evitar problemas de CORS, é recomendado usar uma extensão de servidor local simples para VS Code (como o *Live Server*) ou um servidor HTTP estático (ex: `http-server` via npm) para servir os arquivos do *frontend*.
 
