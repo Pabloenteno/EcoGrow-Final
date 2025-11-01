@@ -4,7 +4,7 @@ Bem-vindo ao repositório do projeto **EcoGrow-Final**. Este projeto é uma apli
 
 ## 🚀 Visão Geral do Projeto
 
-O EcoGrow-Final é uma solução desenvolvida para **[Insira aqui uma breve descrição do que o EcoGrow-Final faz. Ex: gerenciar o cultivo de plantas, monitorar o progresso de receitas orgânicas, etc.]**.
+O EcoGrow-Final é uma solução desenvolvida para **auxiliar o usuário no plantio de frutas, legumes, saladas e temperos de forma orgânica em casa, levando em consideração o espaço disponível e focando na saúde e bem-estar. A plataforma fornece técnicas para automatizar a rega, tempo de desenvolvimento da planta, espaço necessário, quantidade diária do consumo de água e melhor estação para o plantio.**.
 
 O projeto está estruturado em duas partes principais:
 
@@ -125,12 +125,12 @@ O *frontend* é composto por arquivos estáticos (HTML, CSS, JS) e não requer u
 
 ## 🤝 Contribuição
 
-[**Insira aqui informações sobre como outros desenvolvedores podem contribuir, se aplicável. Ex: Regras de Pull Request, Code of Conduct, etc.**]
+[**IEste projeto foi desenvolvido como um trabalho de conclusão de curso. Contribuições externas não são esperadas neste momento, mas sinta-se à vontade para fazer um *fork* e adaptar o código para seus próprios projetos.
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença [**Insira o tipo de licença, ex: MIT**].
+Este projeto está licenciado sob a Licença [Proprietária (Desenvolvimento Acadêmico)**].
 
 ---
 
-*Desenvolvido com 💚 por [Seu Nome/Equipe]*
+*Desenvolvido com 💚 por Pablo Centeno Schmidt*
