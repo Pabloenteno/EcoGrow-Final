@@ -4,7 +4,7 @@ Bem-vindo ao repositório do projeto **EcoGrow**. Este projeto é uma aplicaçã
 
 ##  Visão Geral do Projeto
 
-O EcoGrow é uma solução desenvolvida para **auxiliar o usuário no plantio de frutas, legumes, saladas e temperos de forma orgânica em casa, levando em consideração o espaço disponível e focando na saúde e bem-estar. A plataforma fornece técnicas para automatizar a rega, tempo de desenvolvimento da planta, espaço necessário, quantidade diária do consumo de água e melhor estação para o plantio.**.
+O EcoGrow é uma solução desenvolvida para **auxiliar o usuário no plantio de frutas, legumes, saladas e temperos de forma orgânica em casa, levando em consideração o espaço disponível e focando na saúde e bem-estar. A plataforma fornece informações sobre o tempo de desenvolvimento da planta, espaço necessário, quantidade diária do consumo de água e melhor estação para o plantio.**.
 
 O projeto está estruturado em duas partes principais:
 
