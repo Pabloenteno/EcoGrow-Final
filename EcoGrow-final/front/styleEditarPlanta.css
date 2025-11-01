@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+button{
+    cursor: pointer;
+}
+
+header {
+    padding-left: 2vh;
+    padding-right: 10vh;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%);
+    position: fixed;
+    height: 15vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+#div1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#voltar2 {
+    background: none;
+    border: none;
+}
+
+#voltarPg {
+    height: 7vh;
+
+}
+
+.hoverFix {
+    margin-left: 1vh;
+    width: 3vw;
+
+}
+
+#voltarPg:hover {
+    transition: 0.3s;
+    height: 8vh;
+}
+
+#logo {
+    margin-left: 2vh;
+    height: 15vh;
+}
+
+#EcoGrow {
+
+    font-size: 8vh;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, rgba(27, 157, 57, 1) 0%, rgba(140, 119, 70, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.nome {
+    font-size: 7vh;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, rgba(140, 119, 70, 1) 0%, rgb(60, 51, 28) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    position: relative;
+    top: 15vh;
+    gap: 5vh;
+    transition: margin-left 0.3s ease;
+    margin-left: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgb(127, 167, 137) 0%, rgb(4, 51, 15) 100%);
+}
+
+#voltarPg {
+    height: 7vh;
+}
+
+#voltarPg:active {
+    opacity: 0.3;
+}
+
+.Vvaso{
+    opacity: 1;
+}
+.vaso{
+    opacity: 0.3;
+}
+
+
+
+#v1 {
+    height: 5vh;
+}
+
+#v2 {
+    height: 7vh;
+}
+
+#v3 {
+    height: 9vh;
+}
+
+#Vv1 {
+    height: 5vh;
+}
+
+#Vv2 {
+    height: 7vh;
+}
+
+#Vv3 {
+    height: 9vh;
+}
+
+.gota {
+    height: 4vh;
+    opacity: 0.3;
+}
+.gotaA{
+     height: 4vh;
+}
+
+#imgEstacao {
+    height: 6vh;
+}
+#g1{
+    opacity: 1;
+}
+
+#excluir {
+    font-size: 3.2vh;
+    color: rgb(207, 209, 207);
+    background: radial-gradient(circle, rgb(204, 60, 60) 20%, rgb(124, 16, 16) 100%);
+    font-weight: bold;
+    box-shadow: 0.5vh 0.5vh 0.5vh #000000a0;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2.5vh;
+    border: none;
+}
+
+#excluir:active {
+    scale: 97%;
+}
+
+#excluir:hover {
+    opacity: 0.7;
+}
+
+.editar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%);
+    padding: 5vh;
+    width: 27vw;
+    height: 55vh;
+    border-radius: 3vh;
+    
+}
+
+.qtnAntiga {
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qtnNova {
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linhaEditar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 9vh;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7vh; 
+    margin: 0 auto;   
+}
+.estacao{
+    padding: 0.3vh;
+    border-radius: 1vh;
+}
+input{
+    height: 4vh;
+    width: 9vw;
+    font-size: medium;
+    padding-left: 1vh;
+    border-radius: 1vh;
+    border: none;
+    box-shadow:0.3vh 0.3vh 0.5vh #000000a0;
+}
+#nomeNovo{
+    width: 17vw;
+}
+#imgEstacao{
+    height: 7vh;
+}
+#enviar{
+    font-size: 3vh;
+    color: rgb(207, 209, 207) ;
+    background: radial-gradient(circle, rgb(94, 124, 101) 20%, rgb(4, 51, 15) 100%);
+    font-weight: bold;
+    box-shadow: 0.5vh 0.5vh 0.5vh #000000a0;
+    height: 5vh;
+    width: 14vw;
+    border-radius: 2.5vh;
+    border: none;
+}
+#enviar:active{
+    scale: 95%;
+}
+#enviar:hover{
+    opacity: 0.8;
+}

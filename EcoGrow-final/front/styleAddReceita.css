@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+header {
+    padding-left: 2vh;
+    padding-right: 10vh;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#div1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#voltar {
+    background: none;
+    border: none;
+}
+
+#voltarPg {
+    height: 7vh;
+
+}
+
+.hoverFix {
+    margin-left: 1vh;
+    width: 3vw;
+
+}
+
+#voltarPg:hover {
+    transition: 0.3s;
+    height: 8vh;
+}
+
+#logo {
+    margin-left: 2vh;
+    height: 15vh;
+}
+
+#EcoGrow {
+
+    font-size: 8vh;
+    font-weight: bold;
+    color: transparent;
+    /* Torna o texto transparente para mostrar o background */
+    background-image: linear-gradient(90deg, rgba(27, 157, 57, 1) 0%, rgba(140, 119, 70, 1) 100%);
+    -webkit-background-clip: text;
+    /* Recorta o background para o formato do texto */
+    background-clip: text;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(circle, rgb(127, 167, 137) 0%, rgb(4, 51, 15) 100%);
+}
+
+#voltarPg {
+    height: 7vh;
+}
+
+#voltarPg:active {
+    opacity: 0.3;
+}
+
+#loginA1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    height: 65vh;
+    width: 67vw;
+    border-radius: 3vh;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%);
+    box-shadow: 1vh 1vh 1vh #000000a0;
+}
+
+#formCadastroPlanta {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#criar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 25vw;
+}
+
+input {
+    width: 38.5vw;
+    height: 4vh;
+    font-size: medium;
+    padding-left: 1vh;
+    border-radius: 1vh;
+    border: none;
+    box-shadow: 0.3vh 0.3vh 0.5vh #000000a0;
+}
+
+#cadastrarReceita {
+    font-size: 3.2vh;
+    color: rgb(207, 209, 207);
+    background: radial-gradient(circle, rgb(94, 124, 101) 20%, rgb(4, 51, 15) 100%);
+    font-weight: bold;
+    box-shadow: 0.5vh 0.5vh 0.5vh #000000a0;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 2.5vh;
+    border: none;
+
+
+}
+
+#cadastrarReceita:active {
+    opacity: 0.5;
+    scale: 97%;
+
+}
+
+textarea {
+    border: none;
+    border-radius: 1.5vh;
+    padding: 1vh;
+    height: 20vh;
+    width: max-content;
+    resize: none;
+    box-shadow: 0.5vh 0.5vh 0.5vh #000000a0;
+}
+
+.areasEscrita {
+    display: flex;
+    width: 40vw;
+}
+
+#area1 {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 4vh;
+}
+
+.imagem {
+    height: 31.7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    padding: 0.5vh;
+    border-radius: 2vh;
+    background-color: #ffffff;
+
+}
+
+#addImagem {
+    height: 7vh;
+}
+
+#addImagem:active {
+    opacity: 0.3;
+}
+
+#conteudo1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    width: 40vw;
+}
+
+#conteudo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+h3 {
+    width: auto;
+}
+
+#imagemPreview {
+    width: 100%;
+    border-radius: 2vh;
+    height: 100%;
+    object-fit: cover;
+}
+
+#removerImg {
+    color: rgb(207, 209, 207);
+    background: radial-gradient(circle, rgb(204, 60, 60) 20%, rgb(124, 16, 16) 100%);
+    padding: 0.5vh;
+    border: none;
+    border-radius: 1vh;
+    width: 9vw;
+
+}

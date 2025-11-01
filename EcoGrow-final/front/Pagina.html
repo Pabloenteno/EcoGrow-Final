@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGrow</title>
+     <link rel="icon" href="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="./stylePagina.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <div id="div1">
+      <button id="sidebarToggle" class="sidebar-toggle"><img id="options" src=".//icons/Group 18.svg" draggable="false" alt=""></button>
+      
+        <img id="logo" src="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" draggable="false" alt="">
+        <h1 id="EcoGrow">EcoGrow</h1>
+    </div>
+
+        <input id="pesquisa" type="text" placeholder="Pesquisar"  oninput="filtrarPlantas()" >
+       
+    </header>
+   
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><img id="login" draggable="false" class="icons" src="./icons/user.svg" alt=""></li>
+                    <li><img id="favoritos" style="display: ''; height: 7vh;" class="icons" draggable="false" src="./icons/favorito.svg" alt=""></li>
+                    <li><img id="progresso"  class="icons" draggable="false" src="./icons/tempo.svg" alt=""></li>
+                    <li><img id="adm" style="display: '';"  class="icons" draggable="false" src="./icons/Group 21 (1).svg" alt=""></li>
+                
+                </ul>
+            </nav>
+        </aside>
+        
+        <main id="main" class="main-content">
+          
+        <div style="display: none;" class="planta">
+            <div class="areaImg">
+                <img class="imgPlanta" src="" alt="">
+            </div>
+            <div class="area">
+                <div class="esquerda">
+                    
+                        <h2 class="nome">tomate cereja</h2>
+
+                        <div class="gotas">
+                            <img draggable="false" class="gota" id="g1" src="./icons/Group 23.svg" alt="" data-value="1">
+                            <img draggable="false" class="gota" id="g2" src="./icons/Group 23.svg" alt="" data-value="2">
+                            <img draggable="false" class="gota" id="g3" src="./icons/Group 23.svg" alt="" data-value="3">
+                            <img draggable="false" class="gota" id="g4" src="./icons/Group 23.svg" alt="" data-value="4">
+                            <img draggable="false" class="gota" id="g5" src="./icons/Group 23.svg" alt="" data-value="5">
+                        </div>
+                    
+                    <img class="estacao" src="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" alt="">
+
+                </div>
+
+                <div class="direita">
+                    <h4 class="tempo">teste</h4>
+                   
+                    <div id="vasos">
+                            <img data-value="pequeno" draggable="false" class="vaso" id="v1" src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg" alt="">
+                            <img data-value="médio"  draggable="false" class="vaso" id="v2" src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg" alt="">
+                            <img data-value="grande"  draggable="false" class="vaso" id="v3" src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+          </div>
+        </main>
+    </div>
+ <script src="./Pagina.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+header {
+   padding-left: 2vh;
+  padding-right: 10vh;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%);
+    position: fixed;
+    height: 15vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+#div1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#voltar2 {
+    background: none;
+    border: none;
+}
+
+#voltarPg {
+    height: 7vh;
+
+}
+
+.hoverFix {
+    margin-left: 1vh;
+    width: 3vw;
+
+}
+
+#voltarPg:hover {
+    transition: 0.3s;
+    height: 8vh;
+}
+
+#logo {
+    margin-left: 2vh;
+    height: 15vh;
+}
+
+#EcoGrow {
+
+    font-size: 8vh;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, rgba(27, 157, 57, 1) 0%, rgba(140, 119, 70, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.nome{
+    font-size: 7vh;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(90deg, rgba(140, 119, 70, 1) 0%, rgb(60, 51, 28) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+body{
+    background: radial-gradient(circle, rgb(127, 167, 137) 0%, rgb(4, 51, 15) 100%);
+}
+
+#voltarPg {
+    height: 7vh;
+}
+
+button{
+    cursor: pointer;
+}
+
+#voltarPg:active {
+    opacity: 0.3;
+}
+main{
+    gap: 3vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+
+}
+
+#lixo{
+    height: 5vh; 
+    cursor: pointer;
+    transition: 500ms;
+}
+#lixo:hover{
+    transition: 500ms;
+    scale: 110%;
+}
+#lixo:active{
+    transition: 400ms;
+    scale: 100%;
+}
+#editReceita{
+    height: 4vh; 
+    cursor: pointer;
+    transition: 500ms;
+}
+#editReceita:hover{
+    transition: 500ms;
+    scale: 110%;
+}
+#editReceita:active{
+    transition: 400ms;
+    scale: 100%;
+}
+
+
+.esquerda{
+    gap: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 27vw;
+}
+.direita{
+    padding: 3vh;
+    border-radius: 3vh;
+    height: auto;
+    min-height: 65vh;
+    width: 30vw;
+    background:radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%) ;
+    display: flex;
+    flex-direction: column;
+}
+.imagem{
+    padding: 3vh;
+    background:radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%) ;
+    border-radius: 3vh;
+    height: 23vh;
+    width: 22vw;
+}
+
+.ingredientes{
+
+    padding: 3vh;
+    background:radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(177, 177, 177) 100%) ;
+    border-radius: 3vh;
+    height: auto;
+    min-height: 33vh;
+    width: 22vw;
+
+}
+#img{
+  width: 100%;
+  border-radius: 2vh;
+  height: 100%;
+  object-fit: cover;
+}
+
+#ingredientes{
+
+height: auto;
+text-align: justify;
+}
+#preparo{
+height: auto;
+text-align: justify;
+}
+

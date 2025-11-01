@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGrow</title>
+    <link rel="icon" href="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="./styleInfoPlanta.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="div1">
+            <div class="hoverFix">
+
+                <button id="voltar2"><img id="voltarPg" src=".//icons/Group 20.svg" draggable="false" alt=""></button>
+            </div>
+
+            <img id="logo" src="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png"
+                draggable="false" alt="">
+            <h1 id="EcoGrow">EcoGrow</h1>
+        </div>
+
+        <div style=" display: flex; align-items: center; justify-content: center; gap: 4vh;">
+            <h1 class="nome" id="nome"></h1>
+            <button id="editar" style=" padding-top: 1vh;" onclick="window.location.href= './editarPlanta.html' ">
+                <img style="height: 5vh;" src="./icons/editar.svg" alt="">
+            </button>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="areaA">
+            <div class="topo">
+                <div id="areaImg">
+                    <img id="imagem" draggable="false" src="#" alt="">
+                </div>
+
+                <div class="itens">
+
+                    <div class="gotas">
+                        <img draggable="false" class="gota" id="g1" src="./icons/Group 23.svg" alt="" data-value="1">
+                        <img draggable="false" class="gota" id="g2" src="./icons/Group 23.svg" alt="" data-value="2">
+                        <img draggable="false" class="gota" id="g3" src="./icons/Group 23.svg" alt="" data-value="3">
+                        <img draggable="false" class="gota" id="g4" src="./icons/Group 23.svg" alt="" data-value="4">
+                        <img draggable="false" class="gota" id="g5" src="./icons/Group 23.svg" alt="" data-value="5">
+
+                        <p id="qntAgua">700-1000+ ml</p>
+
+                    </div>
+
+                    <div class="vasos">
+                        <div id="vasos">
+                            <img data-value="pequeno" draggable="false" class="vaso" id="v1"
+                                src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                                alt="">
+                            <img data-value="médio" draggable="false" class="vaso" id="v2"
+                                src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                                alt="">
+                            <img data-value="grande" draggable="false" class="vaso" id="v3"
+                                src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                                alt="">
+                        </div>
+                        <p id="tamanho"></p>
+
+                    </div>
+
+                    <div lass="areaEstacao">
+                        <div class="estacao">
+                            <img id="imgEstacao" src="#" alt="">
+                            <p id="escritaEstacao"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <h2 id="tempo"></h2>
+                    <img id="favoritos" style="display: ''; height: 6vh;" class="icons" draggable="false"
+                        src="./icons/favorito.svg" alt="">
+                    <img id="progresso" style="display: ''; height: 7vh;" class="icons" draggable="false"
+                        src="./icons/tempo.svg" alt="">
+                </div>
+            </div>
+            <div class="a1">
+                <div id="areaAdm" >
+                    <button id="adicionarAdm" onclick="toggleModal()" type="button">
+                        <img id="adm" style="display: '';" class="icons" draggable="false" src="./icons/Group 21 (1).svg"
+                            alt="">
+                    </button>
+                </div>
+                <h2 id="textoAdm">Adicionar Informações</h2>
+                <h3 id="informacoes" style="height: 75%; padding: 2vh; text-align: justify;"></h3>
+                <button id="editButton" onclick="toggleModalEdit()" style="margin-right: 3vh; align-self: flex-end; padding: 1vh;">
+                    <img id="editInfo" style="height: 3vh; width: 2vw;  " src="./icons/editar.svg" alt="">
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div id="abaixo">
+
+            <div class="a2">
+                <h1>Receitas:</h1>
+
+                <div class="receitas">
+
+
+
+                    <div class="lista-receitas-container" id="lista-receitas-container">
+                        <div class="addReceita" id="addReceita">
+                            <button id="addReceita" type="button">
+                                <img id="adm" class="icons" draggable="false" src="./icons/Group 21 (1).svg" alt="">
+                            </button>
+                            <h3>Adicionar Receita</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+    
+    <div id="modal-backgroundUm" onclick="toggleModal()"></div>
+    <div class="modal" id="add">
+        <h2>Adicionar Informações</h2>
+        <textarea name="" id="conteudo" cols="30"></textarea>
+        <button id="adicionar">Adicionar</button>
+    </div>
+
+    <div id="modal-backgroundDois" onclick="toggleModalEdit()"></div>
+    <div class="modal" id="edit">
+        <h2>Editar Informações:</h2>
+        <textarea name="" id="conteudoEditado" cols="30">
+
+        </textarea>
+        <button id="EditarConteudo">Editar</button>
+    </div>
+
+    <script src="./infoPlanta.js"></script>
+</body>
+
+</html>

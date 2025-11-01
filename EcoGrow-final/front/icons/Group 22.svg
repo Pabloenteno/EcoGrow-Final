@@ -1,0 +1,17 @@
+<svg width="250" height="252" viewBox="0 0 250 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="119.918" y="0.795166" width="17" height="250" rx="8.5" transform="rotate(1.7943 119.918 0.795166)" fill="#FF8C00"/>
+<rect y="134" width="17" height="250" rx="8.5" transform="rotate(-90 0 134)" fill="#FF8C00"/>
+<rect x="30.6012" y="43.1221" width="17" height="250" rx="8.5" transform="rotate(-45 30.6012 43.1221)" fill="#FF8C00"/>
+<rect width="17" height="250" rx="8.5" transform="matrix(0.384634 0.923069 0.923069 -0.384634 6.34692 165.733)" fill="#FF8C00"/>
+<rect x="6.84998" y="83.8127" width="17" height="250" rx="8.5" transform="rotate(-66.6753 6.84998 83.8127)" fill="#FF8C00"/>
+<rect width="17" height="250" rx="8.5" transform="matrix(0.692617 0.721306 0.721306 -0.692617 28.9495 205.946)" fill="#FF8C00"/>
+<rect x="69.6354" y="14.2036" width="17" height="250" rx="8.5" transform="rotate(-22.5383 69.6354 14.2036)" fill="#FF8C00"/>
+<rect width="17" height="250" rx="8.5" transform="matrix(0.906308 0.422618 0.422618 -0.906308 64.8679 236.095)" fill="#FF8C00"/>
+<circle cx="124.5" cy="125.5" r="65.5" fill="url(#paint0_linear_2043_22)"/>
+<defs>
+<linearGradient id="paint0_linear_2043_22" x1="66.6745" y1="60" x2="182.326" y2="191" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F2FF00"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

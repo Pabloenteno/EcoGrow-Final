@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGrow</title>
+     <link rel="icon" href="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="./styleEditar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="div1">
+            <div class="hoverFix">
+
+                <button id="voltar2"><img id="voltarPg" src=".//icons/Group 20.svg" draggable="false" alt=""></button>
+            </div>
+
+            <img id="logo" src="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png"
+                draggable="false" alt="">
+            <h1 id="EcoGrow">EcoGrow</h1>
+        </div>
+
+
+    </header>
+    <main>
+        <div id="loginA1">
+            <div class="escrita">
+                <h3>Novo Nome:</h3>
+                <input id="nome" type="text">
+            </div>
+            <div class="escrita">
+                <div style="display:flex; flex-direction: row;  gap: 1vh;">
+                    <h3>Nova Senha:</h3>
+                     <button id="visualizar" class="olho"><img id="imgOlho" style="height: 3vh;" src="./icons/Eye.svg" draggable="false" alt=""></button>
+                </div>
+                <input id="senha" type="password">
+               
+
+            </div>
+            <div class="escrita">
+                <div style="display:flex; flex-direction: row;  gap: 1vh;">
+                    <h3>Confirmar Senha:</h3>
+                     <button id="visualizar2" class="olho"><img id="imgOlho2" style="height: 3vh;" src="./icons/Eye.svg" draggable="false" alt=""></button>
+                </div>
+                <input id="verificar" type="password">
+               
+
+            </div>
+            <h4 id="mensagem" style="color: crimson; display: none;">As senhas não batem!</h4>
+            <h4 id="mensagem2" style="color: crimson; display: none;">Preencha todos os campos!</h4>
+            <button id="editar">Editar</button>
+
+            
+
+        </div>
+    </main>
+    
+    <script src="./editar.js"></script>
+</body>
+
+</html>

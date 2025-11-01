@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGrow</title>
+    <link rel="icon" href="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="./styleEditarPlanta.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="div1">
+            <div class="hoverFix">
+
+                <button id="voltar2"><img id="voltarPg" src=".//icons/Group 20.svg" draggable="false" alt=""></button>
+            </div>
+
+            <img id="logo" src="./imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png"
+                draggable="false" alt="">
+            <h1 id="EcoGrow">EcoGrow</h1>
+        </div>
+
+        <div style=" display: flex; align-items: center; justify-content: center; gap: 4vh;">
+            <h1 class="nome" id="nome"></h1>
+            <button  id="excluir">
+                Excluir Planta
+            </button>
+
+        </div>
+
+
+    </header>
+    <main>
+
+
+
+
+
+
+        <div class="editar">
+            <div style="display: flex; align-items: center; gap: 1vh;">
+                <h2>Nome:</h2> 
+                <input id="nomeNovo" name="nome" type="text">              
+            </div>
+
+            <div class="linhaEditar">
+                <div class="qtnAntiga">
+                    <h3>Atual:</h3>
+                    <div class="gotas">
+                        <img draggable="false" class="gotaA" id="Gg1" src="./icons/Group 23.svg" alt="" >
+                        <img draggable="false" class="gotaA" id="Gg2" src="./icons/Group 23.svg" alt="" >
+                        <img draggable="false" class="gotaA" id="Gg3" src="./icons/Group 23.svg" alt="" >
+                        <img draggable="false" class="gotaA" id="Gg4" src="./icons/Group 23.svg" alt="" >
+                        <img draggable="false" class="gotaA" id="Gg5" src="./icons/Group 23.svg" alt="" >
+
+                    </div>
+
+                    <div id="vasos">
+                        <img data-value="pequeno" draggable="false" class="Vvaso" id="Vv1"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                        <img data-value="médio" draggable="false" class="Vvaso" id="Vv2"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                        <img data-value="grande" draggable="false" class="Vvaso" id="Vv3"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                    </div>
+
+                    <img draggable="false" id="imgEstacao" src="#" alt="">
+
+
+                    <h2 id="tempo"></h2>
+
+                </div>
+                <div class="qtnNova">
+                    <h3>Nova:</h3>
+                    <div id="gotas">
+                        <img draggable="false" class="gota" id="g1" src="./icons/Group 23.svg" alt="" data-value="1">
+                        <img draggable="false" class="gota" id="g2" src="./icons/Group 23.svg" alt="" data-value="2">
+                        <img draggable="false" class="gota" id="g3" src="./icons/Group 23.svg" alt="" data-value="3">
+                        <img draggable="false" class="gota" id="g4" src="./icons/Group 23.svg" alt="" data-value="4">
+                        <img draggable="false" class="gota" id="g5" src="./icons/Group 23.svg" alt="" data-value="5">
+                    </div>
+                    <input type="hidden" id="gotasInput" name="valorGotaSelecionada">
+
+                    <div id="vasos">
+                        <img data-value="pequeno" draggable="false" class="vaso" id="v1"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                        <img data-value="médio" draggable="false" class="vaso" id="v2"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                        <img data-value="grande" draggable="false" class="vaso" id="v3"
+                            src="./icons/11065007-vaso-de-flores-vazio-com-desenho-em-aquarela-de-solo-isolado-no-fundo-branco-clipart-de-vaso-de-flores-em-branco-estilo-de-desenho-animado-de-vaso-de-flores-de-plastico-marrom-vaso-de-flores- 2 (1).svg"
+                            alt="">
+                        <input type="hidden" id="valorSelecionadoInput" name="tamanhoSelecionado" value="">
+                    </div>
+
+                    <div class="opcoes">
+                        <button type="button" class="estacao" id="verao">Verão</button>
+                        <button type="button" class="estacao" id="outono">Outono</button>
+                        <button type="button" class="estacao" id="inverno">Inverno</button>
+                        <button type="button" class="estacao" id="primavera">Primavera</button>
+                        <input type="hidden" id="estacaoInput" name="estacao" value="">
+
+                    </div>
+
+                    <input id="inputTempo" name="tempo" type="text">
+
+
+                </div>
+
+            </div>
+
+            <h4 id="mensagem" style="color: crimson; display: none;">Preencha todos os campos!</h4>
+
+            <button id="enviar">
+                Salvar Alterações
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="./editarPlanta.js"></script>
+</body>
+
+</html>
