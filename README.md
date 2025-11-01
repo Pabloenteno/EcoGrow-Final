@@ -1,8 +1,8 @@
-# 🌿 EcoGrow
+#  EcoGrow
 
 Bem-vindo ao repositório do projeto **EcoGrow**. Este projeto é uma aplicação web completa, desenvolvida como projeto de conclusão de curso do ensino médio Senac integrado com técnico em desenvolvimento web.
 
-## 🚀 Visão Geral do Projeto
+##  Visão Geral do Projeto
 
 O EcoGrow é uma solução desenvolvida para **auxiliar o usuário no plantio de frutas, legumes, saladas e temperos de forma orgânica em casa, levando em consideração o espaço disponível e focando na saúde e bem-estar. A plataforma fornece técnicas para automatizar a rega, tempo de desenvolvimento da planta, espaço necessário, quantidade diária do consumo de água e melhor estação para o plantio.**.
 
@@ -123,14 +123,4 @@ O *frontend* é composto por arquivos estáticos (HTML, CSS, JS) e não requer u
     http-server
     ```
 
-## 🤝 Contribuição
-
-[**IEste projeto foi desenvolvido como um trabalho de conclusão de curso. Contribuições externas não são esperadas neste momento, mas sinta-se à vontade para fazer um *fork* e adaptar o código para seus próprios projetos.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença [Proprietária (Desenvolvimento Acadêmico)**].
-
----
-
-*Desenvolvido com 💚 por Pablo Centeno Schmidt*
+*Desenvolvido por Pablo Centeno Schmidt*
