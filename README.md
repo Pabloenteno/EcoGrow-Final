@@ -1,5 +1,5 @@
 #  EcoGrow
-![Logo EcoGrow](https://ibb.co/QjvHyd6g)
+<img src="https://ibb.co/QjvHyd6g" alt="Logo EcoGrow">
 
 Bem-vindo ao repositório do projeto **EcoGrow**. Este projeto é uma aplicação web completa, desenvolvida como projeto de conclusão de curso do ensino médio Senac integrado com técnico em desenvolvimento web.
 
