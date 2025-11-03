@@ -1,11 +1,15 @@
 #  EcoGrow 
 
-<div display="flex" aling-itens="center">
-    <img src="./EcoGrow-final/front/imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" width="150" alt="Logo">
-    Bem-vindo ao repositório do projeto **EcoGrow**. Este projeto é uma aplicação web                                                                                                                                   completa, desenvolvida como projeto de conclusão de curso do ensino médio Senac                                                                                                                                     integrado com técnico em desenvolvimento web.
+<table>
+  <tr>
+    <td><img src="./EcoGrow-final/front/imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" width="150" alt="Logo"></td>
+    <td>
+      <b>Bem-vindo ao repositório do projeto EcoGrow.</b><br>
+      Este projeto é uma aplicação web completa, desenvolvida como projeto de conclusão de curso do ensino médio Senac integrado com técnico em desenvolvimento web.
+    </td>
+  </tr>
+</table>
 
-
-</div>
 
 ##  Visão Geral do Projeto
 
