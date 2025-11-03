@@ -65,26 +65,6 @@ CREATE TABLE informacao (
     FOREIGN KEY (id_planta) REFERENCES plantas(id)
 );
 
-/*
-comandos
-*/
-
-SELECT p.* FROM plantas p JOIN favoritos f ON f.id_planta = p.id WHERE f.id_usuario = 1;
-
-SELECT p.*,f.data FROM plantas p JOIN plantando f ON f.id_planta = p.id WHERE f.id_usuario = 2;
-
-SELECT  id_usuario, id_planta, nome, ingredientes, preparo, imagem FROM receita WHERE id_planta = 2;
 
 
-select * from plantas;
-select * from usuario;
-
-INSERT INTO favoritos (id_usuario, id_planta) VALUES (1, 1);
-
-INSERT INTO plantando (id_usuario, id_planta) VALUES (1, 1);
-
-insert into usuario (nome, senha,email,tipo) values("pablo","1234","@pablo","adm");
-
-insert into plantas (nome, estacao,tempo,espaco, agua) values("morango","verao","3 dias","pequeno", "3");
-insert into plantas (nome, estacao,tempo,espaco, agua) values("abacate","outono","5 dias","pequeno", "4");
 
