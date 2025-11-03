@@ -1,4 +1,5 @@
-#  EcoGrow
+#  EcoGrow 
+<img src="https://raw.githubusercontent.com/Pabloenteno/EcoGrow-final/EcoGrow-final/front/imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png" width="180" alt="Logo">
 ![Logo da Aplicação](./EcoGrow-final/front/imagens/ChatGPT_Image_12_de_mai._de_2025__18_20_22-removebg-preview.png)
 
 Bem-vindo ao repositório do projeto **EcoGrow**. Este projeto é uma aplicação web completa, desenvolvida como projeto de conclusão de curso do ensino médio Senac integrado com técnico em desenvolvimento web.
