@@ -47,10 +47,10 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 
-1.  **Navegue até o diretório do *backend***:
+1.  **Abra o terminal no projeto e depois navegue até o diretório do *backend***:
 
     ```bash
-    cd EcoGrow-final/EcoGrow-final/back
+    cd EcoGrow-final/back
     ```
 
 2.  **Instale as dependências do Node.js**:
