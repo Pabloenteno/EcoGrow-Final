@@ -80,17 +80,23 @@ O projeto utiliza o MySQL para persistência de dados.
     # Exemplo usando a linha de comando MySQL (ajuste o nome de usuário e senha)
     mysql -u seu_usuario -p ecogrow < EcoGrow-final/EcoGrow-final/back/ecogrow.sql
     ```
+    
+    ```sql
+    # Para ter acesso a informações e funcionalidades de ADM crie um usuario diretamente com o tipo "adm" diretamente no banco de dados
+    insert into usuario (nome, senha,email,tipo) values("SEU_NOME","SUA_SENHA","SEU_EMAIL","adm");
+    ```
+    
 
 3.  **Configure as Variáveis de Ambiente**:
-    O *backend* precisa das credenciais do banco de dados. Crie um arquivo `.env` na pasta `EcoGrow-final/EcoGrow-final/back` e adicione as seguintes variáveis (ajuste os valores conforme sua configuração):
+    O *backend* precisa das credenciais do banco de dados. encontre o arquivo `db_config.js` na pasta `EcoGrow-final/EcoGrow-final/back` e adicione as seguintes variáveis (ajuste os valores do query conforme sua configuração):
 
     ```
-    # Exemplo de arquivo .env
-    DB_HOST=localhost
-    DB_USER=seu_usuario
-    DB_PASSWORD=sua_senha
-    DB_NAME=ecogrow
-    DB_PORT=3306
+    const connection = mysql.createConnection({
+    host: 'SEU_HOST',
+    user: 'SEU_USER',
+    password:'SUA_SENHA',
+    database: 'ecogrow'
+    })
     ```
 
 ## ▶️ Como Iniciar o Projeto
