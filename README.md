@@ -112,7 +112,7 @@ Com as dependências instaladas e o banco de dados configurado, você pode inici
     npm start
     ```
 
-    O servidor será iniciado e estará acessível em `http://localhost:3000` (ou a porta configurada no `server.js`). O script `start` utiliza `nodemon` para reiniciar automaticamente o servidor a cada alteração de código.
+    O servidor será iniciado e estará acessível em `http://localhost:3002` (ou a porta configurada no `server.js`). O script `start` utiliza `nodemon` para reiniciar automaticamente o servidor a cada alteração de código.
 
 ### 2. Iniciar o Frontend (Interface do Usuário)
 
