@@ -90,7 +90,7 @@ O projeto utiliza o MySQL para persistência de dados.
 3.  **Configure as Variáveis de Ambiente**:
     O *backend* precisa das credenciais do banco de dados. encontre o arquivo `db_config.js` na pasta `EcoGrow-final/EcoGrow-final/back` e adicione as seguintes variáveis (ajuste os valores do query conforme sua configuração):
 
-    ```
+    ```js
     const connection = mysql.createConnection({
     host: 'SEU_HOST',
     user: 'SEU_USER',
